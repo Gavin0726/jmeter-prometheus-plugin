@@ -37,13 +37,13 @@ import java.util.zip.GZIPOutputStream;
 public class PrometheusServer {
 	
 	public static final String PROMETHEUS_PORT = "prometheus.port";
-	public static final int PROMETHEUS_PORT_DEFAULT = 9270;
+	public static final int PROMETHEUS_PORT_DEFAULT = 9280;
 	
 	public static final String PROMETHEUS_DELAY = "prometheus.delay";
 	public static final int PROMETHEUS_DELAY_DEFAULT = 0;
 
 	public static final String PROMETHEUS_IP = "prometheus.ip";
-	public static final String PROMETHEUS_IP_DEFAULT = "127.0.0.1";
+	public static final String PROMETHEUS_IP_DEFAULT = "0.0.0.0";
 
 	private static final Logger log = LoggerFactory.getLogger(PrometheusServer.class);
 
